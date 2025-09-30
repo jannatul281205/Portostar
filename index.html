@@ -35,18 +35,20 @@
     <div class="bg-headerBannBg">
       <div class="max-w-[1210px] mx-auto py-[37px]">
         <div class="flex justify-between">
-          <div class="">
+          <div class="not-lg:w-[20%] not-lg:ml-[25px]">
             <img src="images/logo.png" alt="logo.png" />
           </div>
           <div class="">
-            <ul class="flex gap-x-[46px] font-pop uppercase text-sm text-black">
+            <ul
+              class="flex lg:gap-x-[46px] gap-x-[26px] font-pop uppercase text-sm text-black"
+            >
               <li><a href="#">HOME</a></li>
               <li><a href="#">ABOUT US</a></li>
               <li><a href="#">SERVICES</a></li>
               <li><a href="#">WORKS</a></li>
             </ul>
           </div>
-          <div class="">
+          <div class="not-lg:mr-[25px]">
             <a
               href="#"
               class="bg-headerBtn py-2.5 px-5 font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
@@ -61,29 +63,39 @@
     <!-- Banner Part Start  -->
     <div class="bg-headerBannBg">
       <div class="max-w-[1210px] mx-auto">
-        <div class="flex justify-between">
-          <div class="w-[40%] mt-[119px] font-pop">
-            <h5 class="font-medium text-[16px] text-headerBtn">
+        <div class="lg:flex lg:justify-between">
+          <div class="lg:w-[40%] lg:mt-[119px] font-pop">
+            <h5
+              class="font-medium text-[16px] text-headerBtn pt-[38px] pb-[21px] lg:py-0 not-lg:mx-auto not-lg:text-center"
+            >
               SAKIB AL HASAN
             </h5>
             <h1
-              class="py-[32px] font-bold text-6xl text-[#333333] leading-[78px]"
+              class="lg:py-[32px] font-bold lg:text-6xl text-[44px] text-[#333333] leading-[64px] lg:leading-[78px] not-lg:w-[365px] not-lg:mx-auto not-lg:text-center not-lg:pb-[20px]"
             >
               Hello, my name’s Sakib. I’m MERN Stack Developer.
             </h1>
-            <a
-              href="#"
-              class="bg-headerBtn py-[25px] px-[40px] inline-block font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500 mr-8"
-              ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
-            >
-            <a
-              href="#"
-              class="bg-headerBtn py-[25px] px-[40px] inline-block font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
-              ><i class="fa-solid fa-download mr-2"></i>DOWNLOAD CV</a
-            >
+            <div class="not-lg:flex not-lg:flex-col not-lg:items-center">
+              <a
+                href="#"
+                class="bg-headerBtn py-[25px] px-[40px] inline-block font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500 mr-8 not-lg:text-center not-lg:mx-auto"
+                ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+              >
+              <a
+                href="#"
+                class="bg-headerBtn py-[25px] px-[40px] inline-block font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500 not-lg:text-center not-lg:mx-auto not-lg:my-[30px]"
+                ><i class="fa-solid fa-download mr-2"></i>DOWNLOAD CV</a
+              >
+            </div>
           </div>
-          <div class="w-[60%] mt-16px mb-[45px]">
-            <img src="images/banner.png" alt="banner.png" class="w-full" />
+          <div
+            class="lg:w-[60%] mt-16px mb-[45px] not-lg:flex not-lg:justify-center"
+          >
+            <img
+              src="images/banner.png"
+              alt="banner.png"
+              class="lg:w-full not-lg:w-[80%]"
+            />
           </div>
         </div>
       </div>
@@ -91,9 +103,9 @@
     <!-- Banner Part End  -->
 
     <!-- CounterUp Part Start  -->
-    <div class="pt-[90px] pb-[80px]">
-      <div class="max-w-[1210px] mx-auto flex justify-between">
-        <div class="w-1/4 text-center">
+    <div class="lg:pt-[90px] lg:pb-[80px] pt-[64px] pb-[45px]">
+      <div class="max-w-[1210px] mx-auto flex justify-between sm:flex-wrap">
+        <div class="w-[50%] lg:w-1/4 text-center">
           <h3 class="font-pop font-semibold text-5xl text-[#000000]">
             <span class="counter">100</span>+
           </h3>
@@ -101,7 +113,7 @@
             PROJECTS
           </h4>
         </div>
-        <div class="w-1/4 text-center">
+        <div class="w-[50%] lg:w-1/4 text-center">
           <h3 class="font-pop font-semibold text-5xl text-[#000000]">
             <span class="counter">24</span>
           </h3>
@@ -109,16 +121,20 @@
             WINNING AWARD
           </h4>
         </div>
-        <div class="w-1/4 text-center">
-          <h3 class="font-pop font-semibold text-5xl text-[#000000]">
+        <div class="w-[50%] lg:w-1/4 text-center">
+          <h3
+            class="font-pop font-semibold text-5xl text-[#000000] not-lg:mt-[50px]"
+          >
             <span class="counter">70</span>+
           </h3>
           <h4 class="font-pop font-medium text-[16px] text-[#121212] mt-[8px]">
             HAPPY CLIENTS
           </h4>
         </div>
-        <div class="w-1/4 text-center">
-          <h3 class="font-pop font-semibold text-5xl text-[#000000]">
+        <div class="w-[50%] lg:w-1/4 text-center">
+          <h3
+            class="font-pop font-semibold text-5xl text-[#000000] not-lg:mt-[50px]"
+          >
             <span class="counter">10</span>
           </h3>
           <h4 class="font-pop font-medium text-[16px] text-[#121212] mt-[8px]">
@@ -130,7 +146,7 @@
     <!-- CounterUp Part End  -->
 
     <!-- Service Part Start  -->
-    <div class="pt-[60px] pb-[140px]">
+    <div class="pt-[60px] lg:pb-[140px] sm:pb-[64px]">
       <div class="max-w-[1210px] mx-auto">
         <div class="relative">
           <img
@@ -143,19 +159,21 @@
           <h5 class="relative font-medium text-[16px] text-[#5E3BEE] pb-[12px]">
             SERVICES
           </h5>
-          <h3 class="font-semibold text-[44px] text-[#000000]">
+          <h3
+            class="font-semibold text-[34px] lg:text-[44px] text-[#000000] md:leading-[40px] not-lg:w-[365px] mx-auto"
+          >
             What I Do For My Customer.
           </h3>
           <p
-            class="pb-[64px] pt-[13px] text-[16px] leading-[32px] text-[#121212] font-normal w-[580px] mx-auto"
+            class="pt-[6px] pb-[27px] lg:pb-[64px] lg:pt-[13px] text-[16px] leading-[32px] text-[#121212] font-normal lg:w-[580px] mx-auto w-[365px]"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
             blandit lectus. Praesent at hendrerit velit, at dictum nisl.
           </p>
         </div>
-        <div class="flex justify-between">
+        <div class="lg:flex lg:justify-between">
           <div
-            class="py-[50px] px-[35px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
+            class="lg:py-[50px] lg:px-[35px] not-lg:w-[80%] not-lg:mx-auto not-lg:mb-[30px] px-[30px] py-[50px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
           >
             <img src="images/UXDesign.png" alt="UXDesign.png" class="mx-auto" />
             <h5
@@ -170,7 +188,7 @@
             </p>
           </div>
           <div
-            class="py-[50px] px-[35px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
+            class="lg:py-[50px] lg:px-[35px] not-lg:w-[80%] not-lg:mx-auto not-lg:mb-[30px] px-[30px] py-[50px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
           >
             <img
               src="images/productDesign.png"
@@ -189,7 +207,7 @@
             </p>
           </div>
           <div
-            class="py-[50px] px-[35px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
+            class="lg:py-[50px] lg:px-[35px] not-lg:w-[80%] not-lg:mx-auto not-lg:mb-[30px] px-[30px] py-[50px] rounded-4xl hover:bg-[#F9F9FC] duration-400 text-center bg-white shadow-2xl"
           >
             <img
               src="images/motionGraphics.png"
@@ -213,9 +231,11 @@
     <!-- Service Part End  -->
 
     <!-- Graphic Part Start  -->
-    <div class="pt-[109px] pb-[113px] bg-headerBannBg">
-      <div class="max-w-[1210px] mx-auto">
-        <h4 class="font-pop font-medium text-[16px] text-[#5E3BEE]">
+    <div class="lg:pt-[109px] lg:pb-[113px] bg-headerBannBg">
+      <div class="max-w-[1210px] mx-auto relative">
+        <h4
+          class="font-pop font-medium text-[16px] text-[#5E3BEE] not-lg:pt-[80px] not-lg:pb-[14px] not-lg:mx-auto not-lg:text-center"
+        >
           GRAPHIC DESIGNER
         </h4>
         <div class="relative">
@@ -227,86 +247,118 @@
         </div>
         <div class="relative">
           <img
-            class="absolute right-[-70px] top-[80px]"
+            class="absolute lg:right-[0px] lg:top-[80px] right-[30px] top-[-1px]"
             src="images/graphic logo-2.png"
             alt="graphic logo-2.png"
           />
         </div>
         <div class="relative">
           <img
-            class="absolute right-[35%] top-[480px]"
+            class="absolute lg:right-[35%] lg:top-[480px] top-[450px]"
             src="images/graphic logo-3.png"
             alt="graphic logo-3.png"
           />
         </div>
         <div class="relative">
           <img
-            class="absolute left-[-100px] top-[450px]"
+            class="absolute lg:left-[0px] lg:top-[450px]"
             src="images/graphic logo-4.png"
             alt="graphic logo-4.png"
           />
         </div>
         <h3
-          class="font-pop text-6xl leading-[78px] text-[#333333] w-2/5 pt-[22px] pb-[15px] font-bold"
+          class="relative font-pop text-[44px] lg:text-6xl leading-[64px] lg:leading-[78px] text-[#333333] w-2/5 lg:pt-[22px] pb-[15px] font-bold not-lg:mx-auto relative not-lg:text-center not-lg:w-[368px]"
         >
           Graphic Designer With 10 Years Of Experience.
         </h3>
         <p
-          class="pb-[30px] font-pop text-[16px] leading-[32px] w-[585px] text-[#333333]"
+          class="relative not-lg:w-[360px] not-lg:text-center not-lg:mx-auto lg:pb-[30px] font-pop text-[16px] leading-[32px] w-[585px] text-[#333333]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
           blandit lectus. Praesent at hendrerit velit, at dictum nisl.
         </p>
-        <a
-          href="#"
-          class="bg-headerBtn py-[23px] px-[40px] font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
-          ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+        <div
+          class="relative not-lg:text-center not-lg:mt-[30px] not-lg:pb-[80px]"
         >
+          <a
+            href="#"
+            class="bg-headerBtn py-[23px] px-[40px] font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
+            ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+          >
+        </div>
       </div>
     </div>
     <!-- Graphic Part End  -->
 
     <!-- Logo Part Start  -->
-    <div class="pt-[127px] pb-[113px]">
+    <div
+      class="lg:pt-[127px] lg:pb-[113px] sm:pt-[66px] sm:pb-[45px] not-lg:w-[80%] not-lg:mx-auto"
+    >
       <div class="max-w-[1210px] mx-auto">
-        <div class="flex justify-between text-center">
-          <img src="images/brandLogo-1.png" alt="brandLogo-1.png" />
-          <img src="images/brandLogo-2.png" alt="brandLogo-2.png" />
-          <img src="images/brandLogo-3.png" alt="brandLogo-3.png" />
-          <img src="images/brandLogo-4.png" alt="brandLogo-4.png" />
+        <div class="flex justify-between not-lg:flex-wrap">
+          <img
+            class="lg:w-[23%] sm:w-[45%] not-lg:text-center"
+            src="images/brandLogo-1.png"
+            alt="brandLogo-1.png"
+          />
+          <img
+            class="lg:w-[23%] sm:w-[45%] not-lg:text-center"
+            src="images/brandLogo-2.png"
+            alt="brandLogo-2.png"
+          />
+          <img
+            class="lg:w-[23%] not-lg:mt-[23px] sm:w-[45%] not-lg:text-center"
+            src="images/brandLogo-3.png"
+            alt="brandLogo-3.png"
+          />
+          <img
+            class="lg:w-[23%] not-lg:mt-[23px] sm:w-[45%] not-lg:text-center"
+            src="images/brandLogo-4.png"
+            alt="brandLogo-4.png"
+          />
         </div>
       </div>
     </div>
     <!-- Logo Part End  -->
 
     <!-- Portfolio Part Start  -->
-    <div class="pt-[60px] pb-[132px]">
+    <div class="pt-[60px] lg:pb-[132px] pb-[64px]">
       <div class="max-w-[1210px] mx-auto">
         <div class="">
           <div class="relative">
             <img
-              class="absolute top-[-40px] left-[-20px]"
+              class="absolute top-[-40px] lg:left-[-20px] sm:mask-center"
               src="images/portfolio logo.png"
               alt="portfolio logo.png"
             />
           </div>
-          <h5 class="relative font-pop font-medium text-[16px] text-[#5E3BEE]">
+          <h5
+            class="relative font-pop font-medium text-[16px] text-[#5E3BEE] not-lg:text-center"
+          >
             PORTFOLIO
           </h5>
-          <div class="flex justify-between font-pop pt-[11px] pb-[51px]">
+          <div
+            class="lg:flex lg:justify-between font-pop lg:pt-[11px] lg:pb-[51px] pt-[12px] pb-[10px] not-lg:text-center"
+          >
             <h3 class="font-semibold text-[44px] text-[#000000]">
               Selected Works.
             </h3>
-            <p class="text-[16px] text-[#121212] leading-[32px] w-[500px]">
+            <p
+              class="text-[16px] text-[#121212] leading-[32px] lg:w-[500px] w-[368px] not-lg:text-center not-lg:mx-auto not-lg:pb-[30px]"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
             </p>
           </div>
         </div>
-        <div class="flex justify-between">
-          <div class="rounded-b-[24px] shadow-2xl">
+        <div class="lg:flex lg:justify-between">
+          <div
+            class="rounded-b-[24px] shadow-2xl not-lg:w-[80%] not-lg:mx-auto"
+          >
             <img src="images/portfolio-bg.png" alt="portfolio-bg.png" />
-            <div class="pt-[33px] pb-[46px] pl-[47px]">
+            <div
+              class="lg:pt-[33px] lg:pb-[46px] lg:pl-[47px] pt-[21px] pb-[35px] pl-[35px]"
+            >
               <h5 class="font-medium text-[20px] text-[#000000] font-pop">
                 Creativa - Elementor Template Kit
               </h5>
@@ -317,9 +369,13 @@
               </h6>
             </div>
           </div>
-          <div class="rounded-b-[24px] shadow-2xl">
+          <div
+            class="not-lg:mt-[30px] rounded-b-[24px] shadow-2xl not-lg:w-[80%] not-lg:mx-auto"
+          >
             <img src="images/portfolio-bg.png" alt="portfolio-bg.png" />
-            <div class="pt-[33px] pb-[46px] pl-[47px]">
+            <div
+              class="lg:pt-[33px] lg:pb-[46px] lg:pl-[47px] pt-[21px] pb-[35px] pl-[35px]"
+            >
               <h5 class="font-medium text-[20px] text-[#000000] font-pop">
                 Nusapp - Elementor Template Kit
               </h5>
@@ -331,10 +387,14 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between mt-[45px]">
-          <div class="rounded-b-[24px] shadow-2xl">
+        <div class="lg:flex lg:justify-between lg:mt-[45px]">
+          <div
+            class="not-lg:mt-[30px] rounded-b-[24px] shadow-2xl not-lg:w-[80%] not-lg:mx-auto"
+          >
             <img src="images/portfolio-bg.png" alt="portfolio-bg.png" />
-            <div class="pt-[33px] pb-[46px] pl-[47px]">
+            <div
+              class="lg:pt-[33px] lg:pb-[46px] lg:pl-[47px] pt-[21px] pb-[35px] pl-[35px]"
+            >
               <h5 class="font-medium text-[20px] text-[#000000] font-pop">
                 Webina - Elementor Template Kit
               </h5>
@@ -345,9 +405,13 @@
               </h6>
             </div>
           </div>
-          <div class="rounded-b-[24px] shadow-2xl">
+          <div
+            class="not-lg:mt-[30px] rounded-b-[24px] shadow-2xl not-lg:w-[80%] not-lg:mx-auto"
+          >
             <img src="images/portfolio-bg.png" alt="portfolio-bg.png" />
-            <div class="pt-[33px] pb-[46px] pl-[47px]">
+            <div
+              class="lg:pt-[33px] lg:pb-[46px] lg:pl-[47px] pt-[21px] pb-[35px] pl-[35px]"
+            >
               <h5 class="font-medium text-[20px] text-[#000000] font-pop">
                 Marketin - Elementor Template Kit
               </h5>
@@ -364,25 +428,27 @@
     <!-- Portfolio Part End  -->
 
     <!-- Testimony Part Start  -->
-    <div class="pt-[147px] pb-[157px] bg-[#F9F9FC]">
+    <div
+      class="lg:pt-[147px] pt-[115px] lg:pb-[157px] not-lg:mb-[770px] pb-[120px] bg-[#F9F9FC]"
+    >
       <div class="max-w-[1210px] mx-auto relative">
         <div class="font-pop text-center">
           <h5 class="font-medium text-[16px] text-[#5E3BEE]">TESTIMONY</h5>
           <h3
-            class="font-semibold text-[44px] text-[#000000] pt-[12px] pb-[13px]"
+            class="font-semibold lg:text-[44px] text-[34px] not-lg:leading-[40px] not-lg:text-center not-lg:mx-auto text-[#000000] pt-[12px] lg:pb-[13px] pb-[20px] not-lg:w-[367px]"
           >
             What Our Clients Say.
           </h3>
           <p
-            class="text-[16px] leading-[32px] text-[#121212] w-[550px] mx-auto"
+            class="text-[16px] leading-[32px] text-[#121212] lg:w-[550px] mx-auto not-lg:pb-[38px] not-lg:w-[368px]"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
             blandit lectus. Praesent at hendrerit velit, at dictum nisl.
           </p>
         </div>
-        <div class="flex justify-between">
+        <div class="lg:flex lg:justify-between">
           <div
-            class="bg-white rounded-[24px] py-[44px] px-[45px] absolute left-0 mt-[57px] shadow-2xl"
+            class="bg-white not-lg:w-[500px] not-lg:mx-auto rounded-[24px] py-[44px] px-[45px] absolute lg:left-0 not-lg:left-1/2 not-lg:transform not-lg:-translate-x-1/2 not-lg:-translate-y-1/2 not-lg:top-[175%] lg:mt-[57px] shadow-2xl items-center"
           >
             <div class="flex">
               <i class="fa-regular fa-star text-[#EEC01C]"></i>
@@ -392,15 +458,15 @@
               <i class="fa-regular fa-star text-[#EEC01C]"></i>
             </div>
             <p
-              class="pt-[32px] pb-[27px] font-pop font-medium text-[18px] leading-[26px] text-[#000000] w-[430px]"
+              class="pt-[32px] pb-[27px] font-pop font-medium text-[18px] leading-[26px] text-[#000000] lg:w-[430px]"
             >
               Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
               Vestibulum nisl lorem, porta at mollis varius, tincidunt in
               lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
             </p>
-            <div class="flex items-center">
+            <div class="flex justify-between items-center">
               <img src="images/circle.png" alt="circle.png" />
-              <div class="ml-[17px] mr-[200px]">
+              <div class="ml-[17px] lg:mr-[200px]">
                 <h5 class="font-pop font-medium text-[18px] text-[#000000]">
                   David Gueta
                 </h5>
@@ -410,7 +476,7 @@
             </div>
           </div>
           <div
-            class="bg-white rounded-[24px] py-[44px] px-[45px] absolute right-0 mt-[57px] shadow-2xl"
+            class="bg-white rounded-[24px] py-[44px] px-[45px] not-lg:w-[500px] not-lg:left-1/2 not-lg:transform not-lg:-translate-x-1/2 not-lg:-translate-y-1/2 absolute not-lg:top-[300%] not-lg:mx-auto right-0 mt-[57px] shadow-2xl"
           >
             <div class="flex">
               <i class="fa-regular fa-star text-[#EEC01C]"></i>
@@ -420,15 +486,15 @@
               <i class="fa-regular fa-star text-[#EEC01C]"></i>
             </div>
             <p
-              class="pt-[32px] pb-[27px] font-pop font-medium text-[18px] leading-[26px] text-[#000000] w-[430px]"
+              class="pt-[32px] pb-[27px] font-pop font-medium text-[18px] leading-[26px] text-[#000000] lg:w-[430px]"
             >
               Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
               Vestibulum nisl lorem, porta at mollis varius, tincidunt in
               lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
             </p>
-            <div class="flex items-center">
+            <div class="flex justify-between items-center">
               <img src="images/circle.png" alt="circle.png" />
-              <div class="ml-[17px] mr-[200px]">
+              <div class="ml-[17px] lg:mr-[200px]">
                 <h5 class="font-pop font-medium text-[18px] text-[#000000]">
                   David Gueta
                 </h5>
@@ -443,21 +509,24 @@
     <!-- Testimony Part End  -->
 
     <!-- Contact Part Start  -->
-    <div class="mt-[405px] mb-[132px]">
+    <div class="lg:mt-[405px] lg:mb-[132px]">
       <div class="max-w-[1210px] mx-auto">
         <div
-          class="bg-[url('../images/contactBg.png')] bg-no-repeat bg-cover bg-center h-[471px]"
+          class="bg-[url('../images/contactBg.png')] bg-no-repeat bg-cover bg-center h-[471px] not-lg:w-[80%] rounded-4xl not-lg:mx-auto"
         >
           <h3
-            class="pt-[112px] mb-[50px] font-pop font-semibold text-[50px] leading-[72px] text-[#333333] w-[600px] mx-auto text-center"
+            class="lg:pt-[112px] pt-[73px] lg:mb-[50px] mb-[22px] not-lg:w-[343px] font-pop font-semibold text-[50px] lg:text-[50px] leading-[62px] lg:leading-[72px] text-[#333333] w-[600px] mx-auto text-center"
           >
             Interested Working With me? Let's connect!
           </h3>
-          <a
-            href="#"
-            class="bg-headerBtn py-[23px] px-[40px] ml-[500px] font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
-            ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
-          >
+
+          <div class="not-lg:mx-auto not-lg:text-center not-lg:pt-[22px]">
+            <a
+              href="#"
+              class="bg-headerBtn not-lg:mx-auto py-[23px] px-[40px] lg:ml-[500px] font-pop text-sm font-medium text-white rounded-[50px] hover:bg-transparent hover:text-[#333333] duration-500"
+              ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -466,21 +535,25 @@
     <!-- Footer Part Start  -->
     <div class="">
       <div
-        class="max-w-[1210px] mx-auto bg-[#333333] pt-[112px] pb-[45px] rounded-t-3xl"
+        class="max-w-[1210px] mx-auto bg-[#333333] not-lg:mt-[64px] lg:pt-[112px] pt-[77px] lg:pb-[45px] rounded-t-3xl not-lg:w-[80%]"
       >
         <div
-          class="flex justify-between ml-[150px] mr-[135px] border-b-1 border-b-[#404040]"
+          class="lg:flex lg:justify-between lg:ml-[150px] lg:mr-[135px] border-b-1 border-b-[#404040]"
         >
           <div class="">
-            <img src="images/footerLogo.png" alt="footerLogo.png" />
+            <img
+              src="images/footerLogo.png"
+              alt="footerLogo.png"
+              class="not-lg:mx-auto not-lg:text-center"
+            />
             <p
-              class="pt-[22px] pb-[68px] font-pop text-[16px] leading-[32px] text-white w-[350px]"
+              class="lg:pt-[22px] lg:pb-[68px] not-lg:mt-[15px] not-lg:w-[280px] not-lg:mx-auto not-lg:text-center pb-[68px] font-pop text-[16px] leading-[32px] text-white w-[350px]"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
               vitae blandit lectus. Praesent at hendrerit.
             </p>
           </div>
-          <div class="">
+          <div class="not-lg:mx-auto not-lg:text-center">
             <div class="">
               <a href="#"
                 ><i class="fa-regular fa-envelope text-white mr-[20px]"></i>
@@ -490,7 +563,7 @@
                 ></a
               >
             </div>
-            <div class="mt-[30px]">
+            <div class="lg:mt-[30px] mt-[23px]">
               <a href="#"
                 ><i class="fa-solid fa-phone text-white mr-[20px]"></i>
                 <span class="text-white text-[16px] font-pop"
@@ -498,32 +571,45 @@
                 ></a
               >
             </div>
-            <div class="flex text-[36px] mt-[30px]">
+            <div
+              class="flex text-[36px] lg:mt-[30px] mt-[25px] not-lg:text-center not-lg:items-center not-lg:mb-[50px] justify-center not-lg:mx-auto"
+            >
               <a href="#"
-                ><i class="fa-brands fa-facebook text-white mr-[40px]"></i
+                ><i
+                  class="fa-brands fa-facebook text-white mr-[24px] lg:mr-[40px]"
+                ></i
               ></a>
               <a href="#"
-                ><i class="fa-brands fa-instagram text-white mr-[40px]"></i
+                ><i
+                  class="fa-brands fa-instagram text-white mr-[24px] lg:mr-[40px]"
+                ></i
               ></a>
               <a href="#"
-                ><i class="fa-brands fa-linkedin-in text-white mr-[40px]"></i
+                ><i
+                  class="fa-brands fa-linkedin-in text-white mr-[24px] lg:mr-[40px]"
+                ></i
               ></a>
               <a href="#"><i class="fa-brands fa-dribbble text-white"></i></a>
             </div>
           </div>
         </div>
-        <div class="flex justify-between ml-[150px] mr-[150px] mt-[55px]">
+        <div
+          class="lg:flex lg:justify-between lg:ml-[150px] lg:mr-[150px] lg:mt-[55px]"
+        >
           <div class="">
-            <ul class="flex gap-x-[50px] font-pop text-[14px] text-white">
+            <ul
+              class="flex lg:gap-x-[50px] gap-x-[17px] font-pop text-[14px] text-white justify-center not-lg:mt-[36px]"
+            >
               <li><a href="#">HOME</a></li>
               <li><a href="#">ABOUT US</a></li>
               <li><a href="#">SERVICES</a></li>
               <li><a href="#">WORKS</a></li>
             </ul>
           </div>
-          <div class="font-pop text-[16px] text-[#ffffff60]">
-            <h4>© All Right</h4>
-            <span>Reserved</span>
+          <div
+            class="font-pop text-[16px] text-[#ffffff60] not-lg:flex not-lg:justify-center not-lg:mt-[23px] not-lg:pb-[40px]"
+          >
+            <h4>© All Right Reserved</h4>
           </div>
         </div>
       </div>
